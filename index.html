@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <title>InoFisio</title>
+</head>
+
+<body>
+    <header class="nav">
+        <div class="nav-inner">
+
+            <!-- Brand -->
+            <a href="index.html" class="brand">
+                <img src="./assets/img/logo.svg" alt="InoFisio Logo" class="logo-img">
+                <span>InoFisio</span>
+            </a>
+
+            <!-- Hamburger -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+            </label>
+
+            <!-- Menu -->
+            <ul class="menu">
+                <li><a href="#inicio" class="active">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <button class="nav-btn"><a href="https://wa.me/595971543363" class="btn">WhatsApp</a></button>
+            </ul>
+        </div>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section id="inicio" class="hero">
+        <div class="hero-inner">
+            <h1>Recuperá tu movimiento, recuperá tu vida</h1>
+            <p>En InoFisio te ayudamos a mejorar tu bienestar físico con terapias personalizadas, técnicas modernas y un enfoque profesional orientado a tu recuperación total.
+            </p>
+            <div class="hero-btns">
+                <a href="#contacto" class="btn primary">Agendar Cita</a>
+                <a href="#nosotros" class="btn secondary">Conocer Más</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE SECTION -->
+    <section id="servicios" class="services">
+        <div class="service-content">
+            <h1>Servicios</h1>
+            <div class="service-list-p">
+                <div class="service-block">
+                    <img src="./assets/img/icono-1.png" alt="icono-1">
+                    <p>Terapia física<br>personalizada</p>
+                </div>
+                <div class="service-block">
+                    <img src="./assets/img/icono-2.png" alt="icono-2">
+                    <p>Rehabilitación<br>deportiva</p>
+                </div>
+                <div class="service-block">
+                    <img src="./assets/img/icono-3.png" alt="icono-3">
+                    <p>Masajés<br>terapeuticos</p>
+                </div>
+                <div class="service-block">
+                    <img src="./assets/img/Icono-4.png" alt="Icono-4">
+                    <p>Ejercicios<br>posturales</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="nosotros" class="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="./assets/img/foto-ino.svg" alt="Mi Foto">
+            </div>
+            <div class="about-text">
+                <h1>Sobre Nosotros</h1>
+                <p>
+                    En InoFisio, creemos firmemente que el movimiento es la base de una vida saludable. 
+                    Nuestra misión es ayudarte a recuperar tu bienestar físico y mejorar tu calidad de vida 
+                    a través de tratamientos personalizados, basados en la ciencia y adaptados a tus necesidades. <br>
+                    <br>
+                    Nuestro enfoque se centra en la atención personalizada y el trato humano, creando un ambiente cómodo, 
+                    seguro y motivador. En InoFisio, no solo tratamos síntomas, sino que trabajamos para encontrar 
+                    la causa del problema y prevenir futuras molestias. <br>
+                    <br>
+                    Cada sesión es una oportunidad para que te sientas mejor, más fuerte y más libre en tus movimientos.
+                    Porque en InoFisio, tu salud es nuestro compromiso.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contacto" class="contact">
+        <h1>Contacto</h1>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h1>Agendá tu cita</h1>
+                <p>¿Tienes alguna pregunta? Envíanos un mensaje ¡Te responderemos lo antes posible!</p>
+                <form action="https://formsubmit.co/fisioino@gmail.com" method="POST">
+                    <div class="form-container">
+                        <div class="form-row">
+                            <input class="input-text input-row" type="text" name="name" placeholder="Nombre" required>
+                            <input class="input-text input-row" type="tel" name="phone" placeholder="Teléfono" required>
+                        </div>
+                        <input class="input-text input-msj" type="text" name="message" placeholder="Cuéntenos su molestia y qué día desea su cita." required>
+                        <input class="input-btn" type="submit" value="Enviar consulta">
+                    </div>
+                </form>
+            </div>
+            <hr>
+            <div class="contact-info">
+                <ul class="contact-ul">
+                    <li class="contact-list">
+                        <img src="./assets/img/whatsapp-icon.png" alt="Whatsapp">
+                        <p>+595 971 543 363</p>
+                    </li>
+                    <li class="contact-list">
+                        <img src="./assets/img/gmail-icon.png" alt="Gmail">
+                        <p>fisioino@gmail.com</p>
+                    </li>
+                    <li class="contact-list">
+                        <img src="./assets/img/ubi-icon.png" alt="Ubicación">
+                        <p>Calle Inca c/ Estados Unidos</p>
+                    </li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d472.12141574142333!2d-57.5608192426492!3d-25.380931757789536!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945dab8c1ad4e9f9%3A0x41685b64258b2e70!2sConsultorio%20Lic.%20Rol%C3%B3n!5e0!3m2!1ses-419!2spy!4v1761523585909!5m2!1ses-419!2spy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Diseñado y desarrollado por &copy; <a href="https://instagram.com/@novinho.developer">NovinhoDev</a> | Fecha de creación 26/10/2025</p>
+        <p class="copy">WhatsApp: +595 983 092 018 | Gmail: alnexstudio.dev@gmail.com</p>
+    </footer>
+</body>
+
+</html>
